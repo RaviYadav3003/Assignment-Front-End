@@ -1,0 +1,141 @@
+* {
+    align-items: center;
+    background-color: #2F1893;
+}
+
+.checkboxInput {
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.homeContainer {
+    color: white;
+    height: 100%;
+}
+
+.labelBackground {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar>h2 {
+    width: 30%;
+}
+
+.navbar>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar>ul>li {
+    margin: 0.5rem;
+}
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: start;
+}
+
+.asideBox {
+    width: 30%;
+}
+
+.asideBox>p:nth-child(1) {
+    font-size: 2.5rem;
+}
+
+.button-1 {
+    padding: 0.5rem 1rem;
+    background-color: #E93A7D;
+    border-radius: 1rem;
+}
+
+
+.sectionContainer {
+    width: 20%;
+    margin-left: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 24px;
+    color: #1E0E62;
+    background-color: #f9f9f9;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+form>button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form>label {
+    background-color: #f9f9f9;
+    color: #15143966;
+}
+
+form>p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #15143966;
+    background-color: #f9f9f9;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+button:nth-of-type(2) {
+    background-color: #1da1f2;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #0d95e8;
+}
